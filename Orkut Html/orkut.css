@@ -1,0 +1,200 @@
+header.menu{
+    height: 83px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+#title > img{
+    height: 50px;
+}
+
+header > nav > #title > h1{
+    font-size: 38px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+header > nav > #princesa > label{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0 15px;
+}
+
+.container :not(:first-child){
+    margin-top: 15px;
+}
+
+.counter__community {
+    border: 1px solid rgb(121, 121, 121);
+    width: 100%;
+    height: 300%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.photo{
+    height: 530px;
+    width: 310px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__avatar > img{
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+}
+
+.photo__tools > div > i {
+    margin-right: 15px;
+}
+
+.photo__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.description{
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    border-top-right-radius: 70px;
+}
+
+.description > h2{
+    font-size:30px;
+    margin-left: 35px;
+
+}
+
+.description > h4{
+    margin-left: 20px;
+
+}
+
+.description > p{
+    margin-left: 35px;
+}
+
+.description div {
+    display: flex;
+    margin: 0 5px;
+    display: inline-block ;
+    margin-left: 40px;
+}
+
+.counter > .counter__friend{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+  
+.counter > .counter__friend > h3{
+    margin-left: 15px;
+}
+
+
+.counter > .counter__friend > div{
+    display: inline-block;
+}
+  
+.counter > .counter__friend > div > img{
+    height: 160px;
+    width: 160px;
+    margin-left:10px;
+    border-radius: 7px;
+}
+
+.counter > .counter__friend > div > p{
+    margin-left: 15px;
+    font-family: Trebuchet;
+}
+
+.counter__community{
+    height: 500px;
+    width: 540px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.counter__community >h3{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.counter > .counter__community > .communities > div{
+    display: inline-block;
+    margin: 3px;
+    margin-left: 7px;
+}
+  
+.counter > .counter__community > .communities > div > img{
+    height: 140px;
+    width: 145px;
+    margin-left:10px;
+    border-radius: 7px;
+}
+
+.counter > .counter__community > .commmunites > div{
+    display: inline-block;
+    margin: 3px;
+    margin-left: 7px;
+}
+  
+.counter > .counter__community > .commmunites > div > img{
+    height: 140px;
+    width: 145px;
+    margin-left:10px;
+    border-radius: 7px;
+}
+
+.counter > .counter__community > .commmunites > div > p{
+    margin-left: 3px;
+    font-family: Trebuchet;
+}
+
+.counter > .counter__community > .communities > div > p{
+    margin-left: 5px;
+    font-family: Trebuchet;
+}
+
+header > nav{
+    color: #FFFFFF;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

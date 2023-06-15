@@ -1,0 +1,93 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.logo > img{
+    height: 80px;
+}
+
+.container{
+    height: 67vh;
+    width: 64vh;
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid silver;
+
+    box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0,69);
+    -webkit-box-shadow:  10px 9px 24px 3px rgba(64, 61, 61);
+    -moz-box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0,6)
+}
+
+.fields{
+    margin: 5% 10%;
+}
+
+.fields__title{
+    display: flex;
+    justify-content: center;
+}
+
+#field_title{
+    font-size: 18px;
+    font-weight: bold;
+    color:gray;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.textboxs{
+    border: 1px solid rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 9%;
+}
+
+.textboxs > input{
+    height: 40px;
+    border: 1px solid silver;
+    border-radius:5px;
+    margin-bottom: 5%;
+}
+
+#btnlogin > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#btnlogin{
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   margin-top: 3%;
+}
+
+.recovery > a, .recovery1 >a{
+    text-decoration: none;
+    color: rgb(90, 88, 105);
+    align-items: end;
+    text-decoration: underline;
+}
+
+.recovery{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+    margin-top: 20px;
+}
+
+.recovery1{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}

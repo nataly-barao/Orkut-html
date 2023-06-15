@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(192, 206, 248);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+span{
+    color: rgb(58, 69, 228); 
+}
+
+.orkut-button-bg{
+ cursor: pointer;
+ background-color: rgb(154, 154, 236); 
+}
+
+.orkut-font-default{
+    color: rgb(28, 28, 28);
+}
+
+.orkut-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
